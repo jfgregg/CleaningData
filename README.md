@@ -5,7 +5,7 @@ date: "10/05/2020"
 output: html_document
 ---
 
-## R Markdown
+## Getting and Cleaning Data
 
 This folder contains the run_analysis.R script which will take testing and training data from the UCI HAR Dataset. 
 

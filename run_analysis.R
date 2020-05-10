@@ -51,7 +51,6 @@ activityid<- read.table("./UCI HAR Dataset/train/y_train.txt")
 activity <- activitylabels$V2[activityid$V1]
 activity <- tolower(activity)
 activity <- sub("_"," ",activity)
-activity <- as.factor(activity)
 
 subjecttable <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 subjectid <- subjecttable$V1
